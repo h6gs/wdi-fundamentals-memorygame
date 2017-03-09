@@ -1,11 +1,12 @@
+img {
+	height: 200px;
+ 	width: 150px;
+ 	border-radius: 10px;
+}
 .board {
 	height: 50%;
 	width: 50%;
-}
-
-div.card{
-	float: left;
-	margin: 8%;
+	display: inline-block;
 }
 
 .card {
@@ -16,15 +17,17 @@ div.card{
     border-radius: 10px;
     border-color: black;
     background-color: yellow;
-    display:;
-
-
+    float: left;
+	margin: 8%;
 }
 body{
 	text-align: center;
 }
-article{
-	width: 50%;
+p{
+	margin: 0 25% 0 25% ;
+	padding: 35px;
+	text-align: justify;
+
 }
 h1 {
 	color: rgb(2, 132, 130);
@@ -61,4 +64,14 @@ nav a:hover{
 footer{
 	background-color:#808080;
 	clear: both;
+}
+#reset {
+    background-color: #4CAF50;
+    color: white;
+    border:none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
